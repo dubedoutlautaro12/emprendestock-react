@@ -25,7 +25,8 @@
     width: 100px;
 } 
 
-main h2{
+
+.mainsearch{
     text-align: start;
-    font-weight: bold;
+    margin-left: 10px;
 }

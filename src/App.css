@@ -13,6 +13,7 @@ body {
 h2 {
   color: rgb(245, 172, 112);
   text-align: center;
+  justify-content: center;
   font-family: italic;
   font-weight: bold;
   font-size: 40px;

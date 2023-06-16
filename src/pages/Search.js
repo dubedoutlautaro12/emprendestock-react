@@ -2,7 +2,7 @@ import '../styles/Search.css'
 const Search = (props) => {
     return(
         <main>
-            <h2>PODRIA INTERESARTE... </h2>
+            <h2 className='mainsearch' >PODRIA INTERESARTE... </h2>
             
             <div className="emprendedores">
                 <div className="emprendedor">
