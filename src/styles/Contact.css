@@ -1,4 +1,4 @@
-/* main {
+.mainform {
     display: inline-flex;
     gap: 15px;
 }
@@ -73,7 +73,9 @@
     margin-bottom: 5%;
 }
 
-
+h2 {
+    text-align: center;
+}
 
 .personas {
     display: flex;
@@ -133,4 +135,4 @@
     -webkit-border-radius: 10px 10px 10px 10px;
     -moz-border-radius: 10px 10px 10px 10px;
 
-} */
+}

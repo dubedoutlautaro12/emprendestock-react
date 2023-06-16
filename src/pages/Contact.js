@@ -1,7 +1,7 @@
 import "../styles/Contact.css"
 const Contact = (props) => {
     return(
-        <main>
+        <main className="mainform">
         <form className="formulario">
                 <h2>CONTACTO</h2>
             <p>
