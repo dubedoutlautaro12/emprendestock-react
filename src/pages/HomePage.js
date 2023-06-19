@@ -5,7 +5,7 @@ const HomePage = (props) => {
         <main className="holder">
             <h2>BIENVENIDOS</h2>
             <div className="foto1">
-                <img src="images/aaa.PNG" alt="foto-ceramica"/>
+                <img src="images/aaa.PNG" alt="foto-ceramica" />
             </div>
             <div className="columnas">
                 <div className="bienvenidos">
@@ -31,39 +31,81 @@ const HomePage = (props) => {
             </div>
 
             <h2>Podria Interesarte</h2>
-            <div class="recomendado">
-                <div class="productos">
-                    <img src="images/aaa.PNG" alt=""/>
-                    <h4>NOMBRE DEL PRODUCTO</h4>
-                    <h5>NOMBRE DEL EMPRENDIMIENTO VENDEDOR</h5>
-                    <div class="precio"> $777
+            <div className='recomendado'>
+                <div class="tarjeta">
+                    <div class="tarjeta-interna">
+                    <div class="tarjeta-frente">
+                        <img src="images/aaa.PNG" alt="Card Front Image"/>
+                    </div>
+
+                    <div class="tarjeta-atras">
+                        <div class="tarjeta-contenido">
+                            <h2>Card Title</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, eros at posuere fringilla, turpis tortor efficitur velit, at fringilla tortor magna id quam.</p>
+                            <a href="#" class="btn">Read More</a>
+                        </div>
                     </div>
                 </div>
-                
-                <div class="productos">
-                    <img src="images/aaa.PNG" alt=""/>
-                    <h4>NOMBRE DEL PRODUCTO</h4>
-                    <h5>NOMBRE DEL EMPRENDIMIENTO VENDEDOR</h5>
-                    <div class="precio"> $777
-                    </div>
                 </div>
 
-                <div class="productos">
-                    <img src="images/aaa.PNG" alt=""/>
-                    <h4>NOMBRE DEL PRODUCTO</h4>
-                    <h5>NOMBRE DEL EMPRENDIMIENTO VENDEDOR</h5>
-                    <div class="precio"> $777
+                <div class="tarjeta">
+                    <div class="tarjeta-interna">
+                    <div class="tarjeta-frente">
+                        <img src="images/aaa.PNG" alt="Card Front Image"/>
                     </div>
+
+                    <div class="tarjeta-atras">
+                        <div class="tarjeta-contenido">
+                            <h2>Card Title</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, eros at posuere fringilla, turpis tortor efficitur velit, at fringilla tortor magna id quam.</p>
+                            <a href="#" class="btn">Read More</a>
+                        </div>
+                    </div>
+                </div>
                 </div>
 
-                <div class="productos">
-                    <img src="images/aaa.PNG" alt=""/>
-                    <h4>NOMBRE DEL PRODUCTO</h4>
-                    <h5>NOMBRE DEL EMPRENDIMIENTO VENDEDOR</h5>
-                    <div class="precio"> $777
+                <div class="tarjeta">
+                    <div class="tarjeta-interna">
+                    <div class="tarjeta-frente">
+                        <img src="images/aaa.PNG" alt="Card Front Image"/>
+                    </div>
+
+                    <div class="tarjeta-atras">
+                        <div class="tarjeta-contenido">
+                            <h2>Card Title</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, eros at posuere fringilla, turpis tortor efficitur velit, at fringilla tortor magna id quam.</p>
+                            <a href="#" class="btn">Read More</a>
+                        </div>
                     </div>
                 </div>
+                </div>
+
+                <div class="tarjeta">
+                    <div class="tarjeta-interna">
+                    <div class="tarjeta-frente">
+                        <img src="images/aaa.PNG" alt="Card Front Image"/>
+                    </div>
+
+                    <div class="tarjeta-atras">
+                        <div class="tarjeta-contenido">
+                            <h2>Card Title</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, eros at posuere fringilla, turpis tortor efficitur velit, at fringilla tortor magna id quam.</p>
+                            <a href="#" class="btn">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+
+
+
+
             </div>
+            
+
+           
+            
+
         </main>
     )
 }
